@@ -1,7 +1,7 @@
 import mysql.connector
 import matplotlib.pyplot as plt
 import datetime
-import math
+
 
 db=mysql.connector.connect(host="localhost",user="root",password="", database="test")
 cursor=db.cursor()
