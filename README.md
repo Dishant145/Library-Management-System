@@ -1,4 +1,4 @@
-# Library-Management-System using Python and MYSQL
+# Library-Management-System - Python and MYSQL
 This Library Management System consists of the following features:
 
 Libranian Login
