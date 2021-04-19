@@ -1,10 +1,27 @@
 # Library-Management-System
-#Access system as the library admin or user
-Features:
-Add, Update, Delete a book record in the library database
-Search for a particular book in the library
-View all the book records
-Add, Update, Delete a member record in the library database
-Vew all the member records
-Issue book to a member of the library
-Display author-wise book issue data using graph
+This Library Management System consists of the following features:
+
+Libranian Login
+
+Books Menu
+1. Add a Book Record
+2. Update Record of a Book
+3. Delete a Book 
+4. Search a Book 
+5. View Book Records
+
+ Member Menu
+1. Add Member Record 
+2. Update Member Record 
+3. Delete Member Record 
+4. View Member Records
+5. Issue Book To Member 
+
+Author-Wise Book Issue Data
+This feature shows the data, of how many books there are, of every author, in the library using a bar graph.
+
+User Login
+1. Search a book
+2. View Books Record
+3. View Author-Wise Book Data
+
