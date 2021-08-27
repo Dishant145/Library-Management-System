@@ -1,0 +1,38 @@
+"create table books (Sno int (5) primary key , BName varchar (20) , BAuthor varchar (20) , BPublisher varchar (20) , BEdition int (4) , BPrice int (10))"
+"create table member (Mno int (5) primary key, MName varchar (30) , MPhoneNo int (15) , MActive varchar (10)) "
+
+"Insert into books(Sno, BName ,BAuthor, BPublisher , BEdition ,BPrice) values(%s,%s,%s,%s,%s,%s)"
+
+"Select * from books"
+
+"Select * from books where Sno=%s"%(b)
+"Select * from books where BName='%s'"%(c)
+"Select * from books where BAuthor='%s'")%(d)
+
+"Update books set BName = '%s' , BAuthor = '%s' , BPublisher = '%s', BEdition = %s,BPrice=%s" % (c,d,e,f,g)
+
+"Delete from books where Sno=%s" %(b)
+"Delete from books where BPublisher=%s" %(b)
+"Delete from books where BAuthor=%s" %(b)
+"Delete from books where BPublisher=%s" %(b)
+
+
+"Insert into member(Mno, MName, MPhoneNo, MActive) values(%s,%s,%s,%s)")
+
+"Select * from member where Mno=%s"%(b)
+"Select * from member where MName=%s"%(c)
+
+"Update member set MName = '%s' , MAddress = '%s' , MPhoneNo = '%s', MActive = '%s'" % (c,d,f)
+
+"Delete from member where Mno=%s" %(b)
+"Delete from member where MName=%s" %(b)
+
+"Select * from member"
+
+Select * from member where Mno=%s"%(c)
+Select * from member where MName=%s"%(c)
+
+"select member.Mno,member.MName,books.Sno,books.BName,books.BAuthor,member.MActive from member,books where member.Mno=%s and books.Sno=%s"%(c,d)
+
+Select distinct(BAuthor)from books
+Select count(BAuthor) from books where BAuthor = '%s' %(m)
