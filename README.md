@@ -25,5 +25,5 @@ This Library Management System consists of the following features:
    - View Books Record
    - View Author-Wise Book Data
 
-[Python](https://github.com/Dishant145/Library-Management-System/blob/main/Main.py)
+
 
